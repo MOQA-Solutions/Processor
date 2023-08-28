@@ -11,7 +11,7 @@ and specifying the path:
 ```
 defp deps do
   [
-    {:processor, path: "https://github.com/MOQA-Solutions/Processor"}
+    {:processor, git: "https://github.com/MOQA-Solutions/Processor.git"}
   ]
 end
 ```
